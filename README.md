@@ -50,9 +50,10 @@ This dataset was obtained from the UCI Machine Learning Repository ([Link](www.k
 ## Evaluation and Results
 
 - metric used to evaluate the model performace is Mean squared error 
-| model |  Metric(MSE) |
-|  ----------------- | ------------ |
-| Feature selection : Randomforestregressor, model - XGboostregressor and hypertuned with Gridsearch CV | 87737.047            
+| Model                                                                   | Metric (MSE) |
+|-------------------------------------------------------------------------|--------------|
+| Feature selection: Randomforestregressor, model: XGboostregressor       | 87737.047    |
+       
 
 
 

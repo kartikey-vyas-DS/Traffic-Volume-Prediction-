@@ -52,9 +52,24 @@ This dataset was obtained from the UCI Machine Learning Repository ([Link](www.k
 - metric used to evaluate the model performace is Mean squared error 
 
 
-| Model                                                                   | Metric (MSE) |
-|-------------------------------------------------------------------------|--------------|
-| Feature selection: Randomforestregressor, model: XGboostregressor       | 87737.047    |
+| Sr. No. | Feature selection | Model                                        | MSE         |
+|---------|-------------------|----------------------------------------------|-------------|
+| 1       | RFR               | SVR                                          | 3971755.24  |
+| 3       | Mutual Info       | Linear regression                            | 1259834.33  |
+| 2       | LassoCV           | LassoCV                                      | 1149246.7   |
+| 5       | RFR               | Adaboost                                     | 596689.62   |
+| 4       | RFR               | Kneighbourregressor                          | 576971.03   |
+| 6       | Mutual Info       | MLPRegressor                                 | 285756.06   |
+| 8       | RFR               | DecisionTreeRegressor                        | 247243.42   |
+| 7       | RFR               | GradientBoostingregression                   | 237913.8    |
+| 9       | PCA               | RandomforestRegressor                        | 199104.4    |
+| 11      | RFR               | ExtratreesRegressor                          | 171280.41   |
+| 13      | Mutual Info       | RandomforestRegressor                        | 157833.78   |
+| 12      | RFR               | RandomforestRegressor                        | 138495.32   |
+| 10      | LassoCV           | RandomforestRegressor                        | 134864.21   |
+| 14      | RFR               | LGBM                                         | 132453.91   |
+| 15      | RFR               | XGBRegressor with Hypertuning (GridsearchCV) | 97355.09    |
+
        
 
 

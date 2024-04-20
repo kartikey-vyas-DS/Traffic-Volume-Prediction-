@@ -82,6 +82,10 @@ in above table it is clearly understood that Xgboost model with Gridsearchcv hyp
 
 shown below are certain visualization gatherd from the project 
 
+-Feature Importance plot
+
+![alt text](output5.png)
+
 -scatter plot of selected features to traffic volume 
 
 ![alt text](output.png)

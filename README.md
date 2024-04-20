@@ -68,7 +68,7 @@ This dataset was obtained from the UCI Machine Learning Repository ([Link](www.k
 | 12      | RFR               | RandomforestRegressor                        | 138495.32   |
 | 10      | LassoCV           | RandomforestRegressor                        | 134864.21   |
 | 14      | RFR               | LGBM                                         | 132453.91   |
-| 15      | RFR               | XGBRegressor with Hypertuning (GridsearchCV) | 97355.09    |
+| 15      | RFR               | XGBRegressor with Hypertuning (GridsearchCV) | 87737.04    |
 
        
 

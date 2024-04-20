@@ -174,7 +174,7 @@ Following preprocessing, the prepared dataset was subjected to exploratory data 
 
 #### Question 2 : which method gave the best output comparatively for this dataset
 
-- After meticulously exploring various modeling techniques, including linear regression, support vector regression (SVR), neural networks, k-nearest neighbors (KNN), and LightGBM, I arrived at a noteworthy performance level using XGBoost.
+- After meticulously exploring various modeling techniques, including linear regression, support vector regression (SVR), MLPRegressor, k-nearest neighbors (KNN), LassoCV, Adaboost, DecisionTreeRegressor, GradientBoostingregression, RandomforestRegressor,ExtratreesRegressor and LightGBM, I arrived at a noteworthy performance level using XGBoost.
 
 -The process involved a structured approach, beginning with feature selection using Random Forest, followed by model training and prediction with XGBoost. To further refine the model and optimize its parameters, I employed GridSearchCV for hyperparameter tuning. This exhaustive search over the hyperparameter space allowed for the identification of the most effective configuration for the XGBoost model.
 
